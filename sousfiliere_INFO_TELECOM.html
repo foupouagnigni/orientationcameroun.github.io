@@ -4,7 +4,7 @@
 <head>
     <title> INFORMATIQUE ET TELECOMMUNICATION/INGENIEURIE/ORIENTATION CAMEROUN/SPG </title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <Script src="accceuilJava.js"></Script>
     <link href="gestion_css.css" rel="stylesheet">
@@ -41,25 +41,116 @@
 
     <header>
         <!--GESTION DU MENU-->
-
-        <nav>
-            <ul>
-                <li><a href="index.html">SPG</a></li>
-                <li><a href="index.html">HOME</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">FILIERE</a>
-                    <div class="dropdown-content">
-                        <a href="#">ingénieurIE</a>
-                        <a href="#">MEDECINE</a>
-                        <a href="#">CORPS ET ARME</a>
+        <!-- Topbar Start -->
+        <div class="container-fluid d-none d-lg-block">
+            <div class="row align-items-center py-4 px-xl-5">
+                <div class="col-lg-3">
+                    <a href="" class="text-decoration-none">
+                        <h1 class="m-0"><span class="text-primary">Orientation <br> Cameroun</span></h1>
+                    </a>
+                </div>
+                <div class="col-lg-3 text-right">
+                    <div class="d-inline-flex align-items-center">
+                        <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                        <div class="text-left">
+                            <h6 class="font-weight-semi-bold mb-1">SPG</h6>
+                            <small> YAOUNDE CAMEROUN </small>
+                        </div>
                     </div>
-                </li>
-            </ul>
+                </div>
+                <div class="col-lg-3 text-right">
+                    <div class="d-inline-flex align-items-center">
+                        <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                        <div class="text-left">
+                            <h6 class="font-weight-semi-bold mb-1">Email </h6>
+                            <small>SPG@GMAIL.com</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-right">
+                    <div class="d-inline-flex align-items-center">
+                        <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+                        <div class="text-left">
+                            <h6 class="font-weight-semi-bold mb-1">CONACTEZ NOUS </h6>
+                            <small>+237 695 187 698 </small>
+                            <a class="btn btn-outline-light btn-square mr-2" href="https://api.whatsapp.com/send?phone=237695187698"><i class="fab fa-whatsapp"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+        <!-- Navbar Start -->
+        <div class="container-fluid">
+            <div class="row border-top px-xl-5">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <a class="d-flex align-items-center justify-content-between bg-secondary w-100 text-decoration-none" data-toggle="collapse" href="#navbar-vertical" style="height: 67px; padding: 0 30px;">
+                        <h5 class="text-primary m-0"><i class="fa fa-book-open mr-2"></i>Subjects</h5>
+                        <i class="fa fa-angle-down text-primary"></i>
+                    </a>
+                    <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 9;">
+                        <div class="navbar-nav w-100">
+                            <div class="nav-item dropdown">
+                                <a href="fil_ing.html" class="nav-link" data-toggle="dropdown">INGENIEURIE <i class="fa fa-angle-down float-right mt-1"></i></a>
+                                <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
+                                    <a href="sousfiliere_INFO_TELECOM.HTML" class="dropdown-item">INFORMATIQUE ET TELECOMMUNICATION</a>
+                                    <a href="sousfiliere_AG_EL.html" class="dropdown-item"> AGRICULTURE ET ELEVAGE </a>
+                                    <a href="" class="dropdown-item"> GENIE CIVIL & TOPOGAPHIE</a>
+                                    <a href="" class="dropdown-item"> AERONAUTIQUE ET CONSTRUCTION NAVALE</a>
+                                    <a href="" class="dropdown-item"> CHIMIE </a>
+                                    <a href="" class="dropdown-item"> ENERGIE</a>
+                                    <a href="sousfiliere_Physique_mecanique.HTML" class="dropdown-item"> PHYSIQUE ET MECANIQUE </a>
+                                    <a href="" class="dropdown-item"> ENVIRONNEMENT </a>
+                                    <a href="" class="dropdown-item"> MATHEMATIQUE </a>
 
 
-        </nav>
 
 
+                                </div>
+                            </div>
+                            <a href="" class="nav-item nav-link"></a>
+                            <a href="" class="nav-item nav-link">MEDECINE</a>
+                            <a href="" class="nav-item nav-link">ENSEIGNEMENT</a>
+                            <a href="" class="nav-item nav-link">GESTION</a>
+                            <a href="" class="nav-item nav-link">CORP ET ARMEE</a>
+                            <a href="" class="nav-item nav-link">ADMINISTRATION & DEFENSE</a>
+                            <a href="" class="nav-item nav-link">ART ET CULTURE</a>
+                            
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-lg-9">
+                    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                        <a href="" class="text-decoration-none d-block d-lg-none">
+                            <h1 class="m-0"><span class="text-primary">SPG</span>Orientation Cameroun</h1>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav py-0">
+                                <a href="" class="nav-item nav-link">Home</a>
+                                <a href="" class="nav-item nav-link">Concours</a>
+                                <a href="" class="nav-item nav-link">Prepas concours</a>
+                                <a href="teacher.html" class="nav-item nav-link">Bourses d'etudes </a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+
+
+                            </div>
+                            <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block"
+                               href="https://api.whatsapp.com/send?phone=237695187698"><i class="fab fa-whatsapp">
+                                         ENVOYEZ NOUS VOS COMMENTAIRES .</i></a>
+                            
+
+
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
         <!fin menu>
     </header>
     <! debut image defilante>
@@ -79,10 +170,12 @@
             <div class="carousel-item active">
                 <img src="imgIT/inf1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
-                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                    <div class="p-5" style="width: 100%; max-width: 2000px;">
                         <h5 class="text-white text-uppercase mb-md-3">REUSSIR AU CAMEROUN</h5>
-                        <h5 class="display-3 text-white mb-md-4">La maitrise des NTIC est un facteur 
-                            essentiel pour le developpement du cameroun</h5>
+                        <h5 class="display-3 text-white mb-md-4">
+                            La maitrise des NTIC est
+                            un facteur essentiel pour le developpement du cameroun
+                        </h5>
 
                     </div>
                 </div>
@@ -91,9 +184,12 @@
                 <img src="imgIT/info4.jpg" alt="Chicago" class="d-block" style="width:100%">
 
                 <div class="carousel-caption">
-                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                    <div class="p-5" style="width: 100%; max-width: 2000px;">
                         <h5 class="text-white text-uppercase mb-md-3">REUSSIR AU CAMEROUN</h5>
-                        <h5 class="display-3 text-white mb-md-4">L'intelligence artificielle ,un secteur encore vierge</h5>
+                        <h5 class="display-3 text-white mb-md-4">
+                            L'intelligence artificielle
+                            ,un secteur encore vierge
+                        </h5>
 
                     </div>
                 </div>
@@ -101,10 +197,12 @@
             <div class="carousel-item">
                 <img src="imgIT/reseau1.jpg" alt="New York" class="d-block" style="width:100%">
                 <div class="carousel-caption">
-                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                    <div class="p-5" style="width: 100%; max-width: 2000px;">
                         <h5 class="text-white text-uppercase mb-md-3">REUSSIR AU CAMEROUN</h5>
-                        <h5 class="display-3 text-white mb-md-4">Certaines de nos informations
-                            sont stockes dans des servers sous marins google</h5>
+                        <h5 class="display-3 text-white mb-md-4">
+                            Certaines de nos informations sont
+                            stockes dans des servers sous marins google
+                        </h5>
 
                     </div>
                 </div>
@@ -164,7 +262,7 @@
                     <b> De quoi s'agit il ? :  </b>
                     cette spécialité s'intéresse à la conception et à la mise en oeuvre de systèmes pour capter , analyser , comprendre , entreposer , transmettre ,utiliser  et presenter l'information .
                 </p>
-               <br>
+                <br>
                 <p class="coulour-text">
                     <b> Debouché </b> :
                     Architecte de système d’information /
@@ -189,7 +287,7 @@
                             Condition d'accès : BAC: C, D, TI ,GCE-AL / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                         </li>
-                       <br>
+                        <br>
                         <li> Durée de formation: 5 ans / 3 ans  </li>
                         <br>
                         <li>
@@ -197,7 +295,7 @@
                         </li>
                         <br>
                         <li>
-                         Localisation: Yaounde
+                            Localisation: Yaounde
                         </li>
 
                         <li>
@@ -210,7 +308,7 @@
                 <div class="panel1">
                     <ol class="coulour-text">
                         <li>Diplome delivré : ingénieur de conception </li>
-                       <br>
+                        <br>
                         <li>
                             Condition d'accès : BAC: C, D, TI / LICENCE: MATHEMATIQUE,INFORMATIQUE
 
@@ -219,7 +317,7 @@
                         <li>
                             Durée de formation : 5 ans / 3 ans
                         </li>
-                       <br>
+                        <br>
                         <li>
                             Voie d'accès: CONCOUR / ETUDE DE DOSSIER
                         </li>
@@ -227,7 +325,7 @@
                         <li>
                             Localisation : Douala
                         </li>
-                       <br>
+                        <br>
                         <li>
                             Specificite : ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
                         </li>
@@ -288,10 +386,10 @@
                 <b> De quoi s'agit il ? :  </b>
                 cette specielite s'intéresse au developpement des logiciels aussi bien basique que complexe . C'est une branche specialisee du genie informatique .
             </p>
-           <br>
+            <br>
             <p class="coulour-text">
                 <b> Debouché </b> :
-                chef de projet informatique / 
+                chef de projet informatique /
                 Consultant logiciel /
                 Développeur d'applications /
                 Administrateur de système .
@@ -305,24 +403,24 @@
             <div class="panel1">
                 <ol class="coulour-text">
                     <li>Diplome delivré : ingénieur de conception </li>
-                   <br>
+                    <br>
                     <li>
                         Condition d'accès : BAC: C, D, TI / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                     </li>
                     <br>
                     <li>
-                        Durée de formation :5 ans/ 3 ans 
+                        Durée de formation :5 ans/ 3 ans
                     </li>
-                   <br>
+                    <br>
                     <li>
                         Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                     </li>
                     <br>
                     <li>
-                     Localisation: Douala   
+                        Localisation: Douala
                     </li>
-                   <br>
+                    <br>
                     <li>
                         Specificite : ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
                     </li>
@@ -334,7 +432,7 @@
             <div class="panel1">
                 <ol class="coulour-text">
                     <li>Diplome delivré : ingénieur DES TRAVAUX //  BTS </li>
-                   <br>
+                    <br>
                     <li>
                         Condition d'accès : BAC: C, D, TI / DUT,DEUG,LICENCE EN PHYSIQUE,MECANIQUE , INFORMATIQUE , ELECTRONIQUE , ELECTROTECHNIQUE, AUTOMATISME,
                         MATHEMATIQUES , TOUT AUTRE DILOME EQUIVALENT .
@@ -342,20 +440,20 @@
                     </li>
                     <br>
                     <li>
-                        Durée de formation: 5ans / 3 ans // 2 ans 
+                        Durée de formation: 5ans / 3 ans // 2 ans
                     </li>
                     <br />
-                   <Br/>
+                    <Br />
 
                     <li>
                         Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                     </li>
                     <br>
-                    
+
                     <li>
                         Localisation : Yaounde
                     </li>
-                   <br>
+                    <br>
 
                     <li>
                         Specificite :
@@ -368,7 +466,7 @@
             <div class="panel1">
                 <ol class="coulour-text">
                     <li>Diplome delivré : BTS / LICENCE / MASTER</li>
-                   <br>
+                    <br>
                     <li>
                         Condition d'accès :
 
@@ -377,7 +475,7 @@
                     <li>
                         Durée de formation: 2 ans / 3 ans / 5 ans
                     </li>
-                   <br>
+                    <br>
                     <li>
                         Voie d'accès: CONCOUR / ETUDE DE DOSSIER
                     </li>
@@ -385,7 +483,7 @@
                     <li>
                         Localisation:Yaounde
                     </li>
-                   <br>
+                    <br>
                     <li>
                         Specificite :
                     </li>
@@ -397,24 +495,24 @@
             <div class="panel1">
                 <ol class="coulour-text">
                     <li>Diplome delivré : ingénieur de travaux  </li>
-                   <br>
+                    <br>
                     <li>
                         Condition d'accès : BAC: C, D, TI / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                     </li>
                     <br>
                     <li>
-                        Durée de formation : 5 ans 
+                        Durée de formation : 5 ans
                     </li>
-                   <br>
+                    <br>
                     <li>
                         Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                     </li>
                     <br>
                     <li>
-                      Localisation:Yaounde  
+                        Localisation:Yaounde
                     </li>
-                   <br>
+                    <br>
                     <li>
                         Specificite :
                     </li>
@@ -434,7 +532,7 @@
             <b> De quoi s'agit il ? :  </b>
             cette spécialité forme les professionnels à meme d'assurer la mise en oeuvre,l'administration et la maintenance de tout equipement de reseau ou de télécommunication . Leurs competences dans les differentes technologies de transmission de l'information ainsi que leurs connaissances approfondies des protocoles des differentes reseaux de communication leur permettent de concevoir , dans une equipe , des architectures reseau ou des installations de télécommunications complexes et de les optimiser .
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             ingénieur de recherche et développement/
@@ -451,14 +549,14 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : ingénieur de conception </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : BAC: C, D, TI GCE AL/ LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 5 ans 
+                    Durée de formation : 5 ans
                 </li>
                 <br>
                 <li>
@@ -468,7 +566,7 @@
                 <li>
                     Localisation : Yaounde
                 </li>
-               <br>
+                <br>
                 <li>
                     Specificite : accès SPECIALE POUR CERTAINES MENTIONS TRES BIEN /
                     ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
@@ -480,16 +578,16 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : ingénieur de conception </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : BAC: C, D, TI GCE AL/ LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation: 5 ans 
+                    Durée de formation: 5 ans
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -497,7 +595,7 @@
                 <li>
                     Localisation:Douala
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Specificite : ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
@@ -510,22 +608,23 @@
         <button class="accordion1"><b>SIANTOU   </b> </button>
         <div class="panel1">
             <ol class="coulour-text">
-                <li>Diplome delivré : ingénieur DES TRAVAUX // BTS 
+                <li>
+                    Diplome delivré : ingénieur DES TRAVAUX // BTS
                 </li>
-               <br>
-               <li>
-                   Condition d'accès :
-                   ingénieurie : BAC: C, D, TI /BTS: TOUT BAC ,GCE-AL/ DUT,DEUG,LICENCE EN PHYSIQUE,MECANIQUE , INFORMATIQUE , ELECTRONIQUE , ELECTROTECHNIQUE, AUTOMATISME,
-                   MATHEMATIQUES , TOUT AUTRE DILOME EQUIVALENT 
-
-               </li>
                 <br>
                 <li>
-                    Durée de formation : 5 ans / 3 ans // 2 ans  
+                    Condition d'accès :
+                    ingénieurie : BAC: C, D, TI /BTS: TOUT BAC ,GCE-AL/ DUT,DEUG,LICENCE EN PHYSIQUE,MECANIQUE , INFORMATIQUE , ELECTRONIQUE , ELECTROTECHNIQUE, AUTOMATISME,
+                    MATHEMATIQUES , TOUT AUTRE DILOME EQUIVALENT
+
+                </li>
+                <br>
+                <li>
+                    Durée de formation : 5 ans / 3 ans // 2 ans
                 </li>
 
                 <BR>
-                <BR /> 
+                <BR />
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -549,16 +648,16 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : BTS/LICENCE/MASTER</li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès :TOUT BAC ,GCE-AL
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation: 2 ans / 3 ans / 5 ans 
+                    Durée de formation: 2 ans / 3 ans / 5 ans
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -566,7 +665,7 @@
                 <li>
                     Localisation: Yaounde
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Specificite :
@@ -579,7 +678,7 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : ingénieur de travaux  </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : BAC: C, D, TI / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
@@ -588,7 +687,7 @@
                 <li>
                     Durée de formation: 2 ans / 3 ans / 5 ans
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -596,7 +695,7 @@
                 <li>
                     Localisation: Yaounde
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Specificite :
@@ -620,7 +719,7 @@
             Il doit en assurer la cohérence, la qualité et la sécurité. En veille technologique continue,
             il peut avoir à gérer plusieurs bases de données et plusieurs outils.
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             Permet aux étudiants d’être embauchés dans des entreprises aux profils très différents :
@@ -631,22 +730,22 @@
         </p>
         <p class="coulour-text"><b> ECOLE DE FORMATION</b>  </p>
 
-        
+
 
         <button class="accordion1"><b>UCAC  </b> </button>
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès :LICENCE
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation: 3 ans 
+                    Durée de formation: 3 ans
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès:CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -654,7 +753,7 @@
                 <li>
                     Localisation: Yaounde
                 </li>
-               <br>
+                <br>
                 <li>
                     Specificite :
                 </li>
@@ -665,24 +764,24 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : BTS</li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès :TOUT BAC / CAPACITE EN DROIT / BTS / DSEP / HND /DEUG
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 2 ans 
+                    Durée de formation : 2 ans
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès:
                 </li>
                 <br>
                 <li>
-                 Localisation : Yaounde   
+                    Localisation : Yaounde
                 </li>
-                <br> 
+                <br>
                 <li>
                     Specificite :
                 </li>
@@ -699,7 +798,7 @@
             qui seront utilisés principalement par l'industrie (automobile, électronique, chimie…)
             et le secteur médical, mais aussi par l'agriculture, la construction ou encore la logistique.
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             Automobile, aéronautique, agroalimentaire,
@@ -712,14 +811,14 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : ingénieur de conception </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : BAC: C, D, TI / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 5 ans 
+                    Durée de formation : 5 ans
                 </li>
                 <br>
                 <li>
@@ -729,7 +828,7 @@
                 <li>
                     Localisation: Douala
                 </li>
-               <br>
+                <br>
                 <li>
                     Specificite : ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
                 </li>
@@ -742,25 +841,25 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : BTS</li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès :
 
                 </li>
                 <br>
                 <li>
-                 Durée de formation: 2 ans    
+                    Durée de formation: 2 ans
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Voie d'accès:
                 </li>
                 <br>
                 <li>
-                    Localisation : Yaounde 
+                    Localisation : Yaounde
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Specificite :
@@ -773,16 +872,16 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès :LICENCE
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 
+                    Durée de formation :
                 </li>
-               <br> 
+                <br>
                 <li>
                     Voie d'accès:CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -790,7 +889,7 @@
                 <li>
                     Localisation :
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Specificite :
@@ -798,7 +897,7 @@
             </ol>
 
         </div>
-        
+
     </div>
 
 
@@ -811,7 +910,7 @@
             qui seront utilisés principalement par l'industrie (automobile, électronique, chimie…)
             et le secteur médical, mais aussi par l'agriculture, la construction ou encore la logistique.
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             Automobile, aéronautique, agroalimentaire,
@@ -824,16 +923,16 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : ingénieur de conception </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : BAC: C, D, TI / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 5 ans / 3 ans 
+                    Durée de formation : 5 ans / 3 ans
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -841,7 +940,7 @@
                 <li>
                     Localisation: Douala
                 </li>
-               <br>
+                <br>
                 <li>
                     Specificite : ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
                 </li>
@@ -863,7 +962,7 @@
             promouvoir une marque auprès de consommateurs.
             Il s'appuie sur le développement de l'usage d'Internet et des objets connectés
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             L’avènement des nouveaux moyens de communication autour
@@ -881,25 +980,25 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré :  </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès:TOUT BAC
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 
+                    Durée de formation :
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Voie d'accès:
                 </li>
                 <br>
                 <li>
-                    Localisation: Yaounde 
+                    Localisation: Yaounde
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Specificite :
@@ -918,7 +1017,7 @@
             <b> De quoi s'agit il ? :  </b>
             cette spécialité regroupe l'ensemble des fomations en science humaine
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             Automobile, aéronautique, agroalimentaire,
@@ -931,14 +1030,14 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : licence // master // doctorat </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : BAC: A,C, D, TI / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation :  3 ans // +2ans // +++  
+                    Durée de formation :  3 ans // +2ans // +++
                 </li>
                 <br>
                 <li>
@@ -949,7 +1048,7 @@
 
                     Localisation: Yaounde
                 </li>
-                <br> 
+                <br>
                 <li>
                     Specificite :ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
                 </li>
@@ -967,7 +1066,7 @@
             <b> De quoi s'agit il ? :  </b>
             Cette spécialité fait  reference à tout art produit à l'aide d'appareils numeriques .
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             animateur 3D,infographiste,webmaster,game designer,
@@ -979,7 +1078,7 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : LICENCE/MASTER/DOCTORAT </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : BAC: A,C, D, TI / LICENCE(+3): MATHEMATIQUE,INFORMATIQUE
 
@@ -988,15 +1087,15 @@
                 <li>
                     Durée de formation :  3 ans // +2ans // +++
                 </li>
-               <br> 
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
                 <br>
                 <li>
-                    Localisation : Yaounde 
+                    Localisation : Yaounde
                 </li>
-               <br> 
+                <br>
 
                 <li>
                     Specificite : ETUDE DES DOSSIERS  POUR LES RESSORTISSANTS DE LA SOUS REGION
@@ -1016,7 +1115,7 @@
             Il/elle met en forme les contenus, maintient la plateforme technique et s'occupe du référencement,
             en collaboration avec les web designers et les développeurs...
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             Un administrateur de site web peut également mettre à profit son expertise
@@ -1029,24 +1128,24 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré :  </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : TOUT BAC
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 
+                    Durée de formation :
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
                 <br>
                 <li>
-                    Localisation : Yaounde 
+                    Localisation : Yaounde
                 </li>
-               <br>
+                <br>
                 <li>
                     Specificite :
                 </li>
@@ -1064,7 +1163,7 @@
             cette spécialité s'intéresse à la création d'images numériques assistée par ordinateur,
             design du web site web etc . Cette activité est liée aux arts graphiques.
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
 
@@ -1074,16 +1173,16 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré :  </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : TOUT BAC
 
                 </li>
                 <br>
                 <li>
-                    Durée de formation : 
+                    Durée de formation :
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -1091,7 +1190,7 @@
                 <li>
                     Localisation : Yaounde
                 </li>
-               <br>
+                <br>
 
                 <li>
                     Specificite :
@@ -1103,7 +1202,7 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré :  </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : TOUT BAC
 
@@ -1112,15 +1211,15 @@
                 <li>
                     Durée de formation :
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
                 <br>
                 <li>
-                    Localisation : Yaounde 
+                    Localisation : Yaounde
                 </li>
-               <br> 
+                <br>
                 <li>
                     Specificite :
                 </li>
@@ -1137,7 +1236,7 @@
             cette spécialité s'intéresse à la création d'images numériques assistée par ordinateur,
             design du web site web etc . Cette activité est liée aux arts graphiques.
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
 
@@ -1147,7 +1246,7 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré :  </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : TOUT BAC
 
@@ -1156,15 +1255,15 @@
                 <li>
                     Durée de formation :
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
                 <br>
                 <li>
-                    Localisation: Yaounde 
+                    Localisation: Yaounde
                 </li>
-               <br>
+                <br>
                 <li>
                     Specificite :
                 </li>
@@ -1175,7 +1274,7 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré :  </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès : TOUT BAC
 
@@ -1184,7 +1283,7 @@
                 <li>
                     Durée de formation :
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
@@ -1192,7 +1291,7 @@
                 <li>
                     Localisation : Yaounde
                 </li>
-               <br> 
+                <br>
 
                 <li>
                     Specificite :
@@ -1209,13 +1308,13 @@
             <b> De quoi s'agit il ? :  </b>
             cette spécialité traite de l'etude ,developpement et mise en service
             d'application d'automatisation portant sur la creation, l'amelioration ou la renovation d'installations
-            ou d'équipements industriels . 
+            ou d'équipements industriels .
         </p>
-       <br>
+        <br>
         <p class="coulour-text">
             <b> Debouché </b> :
             installateur et maintenancier dans les entreprises des services et d'équipements automatiques
-            / poste dans des societes utilisants les chaines de fabrications . 
+            / poste dans des societes utilisants les chaines de fabrications .
             '
         </p>
         <p class="coulour-text"><b> ECOLE DE FORMATION</b>  </p>
@@ -1223,7 +1322,7 @@
         <div class="panel1">
             <ol class="coulour-text">
                 <li>Diplome delivré : licence/master/doctorat </li>
-               <br>
+                <br>
                 <li>
                     Condition d'accès :TOUT BAC
 
@@ -1232,15 +1331,15 @@
                 <li>
                     Durée de formation : 3  ans / 5 ans / +++
                 </li>
-               <br>
+                <br>
                 <li>
                     Voie d'accès: CONCOUR/ETUDE DE DOSSIER
                 </li>
                 <br>
                 <li>
-                    Localisation: Yaounde 
+                    Localisation: Yaounde
                 </li>
-               <br> 
+                <br>
                 <li>
                     Specificite :
                 </li>
@@ -1248,7 +1347,7 @@
 
         </div>
 
-        
+
 
     </div>
 
@@ -1270,7 +1369,7 @@
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="imgAC/info11.jpg" alt="">
                         <a class="cat-overlay text-white text-decoration-none" href="fil_ing.html">
-                            <h4 class="text-white font-weight-medium">ingénieurIE</h4>
+                            <h4 class="text-white font-weight-medium">INGENIEURIE</h4>
                             <span></span>
                         </a>
                     </div>
@@ -1329,15 +1428,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="imgAC/EN1.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">ENTREPRENARIAT</h4>
-                            <span></span>
-                        </a>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -1372,6 +1463,12 @@
     <a href="fil_ing.html" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">PAGE PRECEDENTE</a>
 
     <a href="index.html" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">ACCUEIL</a>
+
+    <a  class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"
+       href="https://api.whatsapp.com/send?phone=237695187698"> <i class="fab fa-whatsapp">ENVOYEZ NOUS VOS COMMENTAIRES </i></a>
+
+
+
     <!-- Footer Start -->
     <footer>
         <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -1385,14 +1482,16 @@
                             <p><i class="fa fa-envelope mr-2"></i>SPG@gmail.com</p>
                             <div class="d-flex justify-content-start mt-4">
 
-                                <a class="btn btn-outline-light btn-square mr-2" href="https://api.whatsapp.com/send?phone=237695187698"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-outline-light btn-square mr-2" 
+                                   href="https://api.whatsapp.com/send?phone=237695187698"><i class="fab fa-whatsapp"> 
+                                       </i> CONTACTEZ NOUS  </a>
 
                             </div>
                         </div>
                         <div class="col-md-6 mb-5">
                             <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">NOS OBJECTIFS</h5>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>ORIENTATION PROFESSIONNEL</a>
+                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>ORIENTATION PROFESSIONNELLE</a>
                                 <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> DEVELOPPEMENT DU CAMEROUN</a>
                                 <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i> PANAFRICANISME</a>
                             </div>
